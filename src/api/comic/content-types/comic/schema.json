@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comics",
+  "info": {
+    "singularName": "comic",
+    "pluralName": "comics",
+    "displayName": "Comic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "commentary": {
+      "type": "text"
+    },
+    "LG": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
